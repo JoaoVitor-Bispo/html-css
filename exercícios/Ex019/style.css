@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(116, 228, 191, 0.315);
+}
+
+h1 {
+    color: #1e482f
+}
+h1#principal {
+    background-color: #3c895e;
+    color: white;
+    text-align: center;
+}
+h1#html {
+    color: rgba(194, 128, 6, 0.87)
+}
+h1#css {
+    color: rgba(4, 111, 160, 0.781)
+}
+#css:hover {
+    color: black;
+}
+h2 {
+    color: #3c895e
+}
+.intermediario {
+    color: rgb(182, 182, 45)
+}
+.avançado {
+    color: rgb(155, 0, 0)
+}
+.destaque {
+    background-color: #59c087;
+}
+#test {
+    color: blueviolet
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    background-color: white;
+}
