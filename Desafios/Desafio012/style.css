@@ -24,15 +24,11 @@ main {
     font-weight: normal;
     margin: 30px;
 }
-section.normal {
-    width: 525px;
-}
 section#imagem1{
     background-image: url('imagens/background001.jpg');
     background-position: right center;
 }
 section#imagem1 > p {
-    width: 525px;
     color: white;
     background-color: black
 }
