@@ -18,26 +18,33 @@ header > h1 {
     font-family: 'Passion one';
     font-weight: bold;
 }
-main {
+section {
     font-family: 'Sriracha';
     font-size: 47px;
     font-weight: normal;
-    margin: 30px;
+}
+section.normal {
+    padding-top: 10vh;
+    padding-bottom: 25vh;
 }
 section#imagem1{
     background-image: url('imagens/background001.jpg');
     background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 section#imagem1 > p {
     color: white;
-    background-color: black
+    background-color: black;
+    width: 560px;
+    padding: 5px;
 }
 section.imagem {
     background-attachment: fixed;
     margin: auto -30px;
     padding-top: 10vh;
-    padding-bottom: 10px; 
-    padding-left: 30px;
+    padding-bottom: 10vh; 
+    padding-left: 90px;
 }
 section.imagem > p {
     width: 525px;
