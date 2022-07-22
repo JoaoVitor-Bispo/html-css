@@ -22,6 +22,7 @@ section {
     font-family: 'Sriracha';
     font-size: 47px;
     font-weight: normal;
+    padding-left: 30px;
 }
 section.normal {
     padding-top: 10vh;
@@ -29,25 +30,29 @@ section.normal {
 }
 section#imagem1{
     background-image: url('imagens/background001.jpg');
-    background-position: right center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 section#imagem1 > p {
     color: white;
     background-color: black;
-    width: 560px;
-    padding: 5px;
+}
+section#imagem2 {
+    background-image: url('imagens/background002.jpg');
+}
+section#imagem2 > p {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 section.imagem {
     background-attachment: fixed;
-    margin: auto -30px;
+    background-position: right center;
+    background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh; 
-    padding-left: 90px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
 }
 section.imagem > p {
-    width: 525px;
+    width: 560px;
     color: white;
+    padding: 5px;
 }
     
