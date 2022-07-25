@@ -18,15 +18,18 @@ header > h1 {
     font-family: 'Passion one';
     font-weight: bold;
 }
+main {
+    min-width: 300px;
+}
 section {
     font-family: 'Sriracha';
     font-size: 47px;
     font-weight: normal;
     padding-left: 30px;
 }
-section.normal {
+section.normal p{
     padding-top: 10vh;
-    padding-bottom: 25vh;
+    padding-bottom: 20vh;
 }
 section#imagem1{
     background-image: url('imagens/background001.jpg');
@@ -51,8 +54,22 @@ section.imagem {
     padding-left: 30px;
 }
 section.imagem > p {
-    width: 560px;
+    display: inline-block;
     color: white;
-    padding: 5px;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
 }
     
