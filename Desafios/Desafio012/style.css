@@ -6,56 +6,55 @@
     box-sizing: border-box;
     margin: 0px;
 }
+body {
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 header {
-    height: 250px;
     background-color: black;
     text-align: center;
     color: white;
+    padding-bottom: 50px;
     padding-top: 50px;
 }
 header > h1 {
-    font-size: 113px;
+    font-size: 10vw;
     font-family: 'Passion one';
     font-weight: bold;
-}
-main {
-    min-width: 300px;
+    font-variant: small-caps;
 }
 section {
     font-family: 'Sriracha';
-    font-size: 47px;
+    font-size: 3.5vw;
     font-weight: normal;
     padding-left: 30px;
-}
-section.normal p{
     padding-top: 10vh;
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+section.normal > p {
+    padding-bottom: 2em;
 }
 section#imagem1{
     background-image: url('imagens/background001.jpg');
 }
-section#imagem1 > p {
-    color: white;
-    background-color: black;
-}
 section#imagem2 {
     background-image: url('imagens/background002.jpg');
 }
-section#imagem2 > p {
-    background-color: rgba(0, 0, 0, 0.5);
-}
 section.imagem {
-    background-attachment: fixed;
-    background-position: right center;
+    background: right center no-repeat fixed;
     background-size: cover;
     padding-top: 10vh;
     padding-bottom: 10vh; 
-    background-repeat: no-repeat;
     padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
 }
 section.imagem > p {
     display: inline-block;
     color: white;
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 footer {
     background-color: black;
