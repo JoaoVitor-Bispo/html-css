@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+
+    <form action="cadastro.js" method="POST">
+        <p>
+            <label for="cor"></label>
+            <input type="color" name="cor" id="cor">
+        </p>
+        <p>
+            <label for="sat">Nível de satisfação:</label>
+            <input type="range" name="sat" id="sat">
+        </p>
+        <p>
+            <label for="arquivo">Selecione um arquivo:</label>
+            <input type="file" name="arquivo" id="arquivo">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
