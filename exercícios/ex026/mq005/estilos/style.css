@@ -16,14 +16,30 @@ header h1 {
     padding: 10px;
     text-align: center;
 }
-header nav {
+i#menu {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    display: block;
+    text-align: center;
     padding: 10px;
+}
+i#menu:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+header nav {
+    text-align: center;
+    display: none;
 }
 a {
     background-color: rgb(97, 97, 97);
     color: rgb(255, 255, 255);
     padding: 10px;
+    display: block;
+    margin: 0px;
     text-decoration: none;
+    border-top: 1px solid gray;
 }
 a:hover {
     background-color: rgb(117, 117, 117);
@@ -31,11 +47,12 @@ a:hover {
 }
 section {
     background-color: white;
-    padding: 10px;
     width: 90vw;
+    padding: 10px;
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
+    text-align: justify;
 }
 section h1 {
     margin-bottom: 15px;
