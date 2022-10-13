@@ -8,24 +8,61 @@
     <style>
         main {
             background-color: rgba(204, 204, 6, 0.774);
-            width: 400px;
+            width: 480px;
             height: 250px;
             padding: 5px;
             display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
             justify-content: center;
-            align-items:  center;
-            row-gap: 50px;
+            align-content: center;
+            align-items: center;
+            row-gap: 5px;
         }
         div {
-            background-color: white;
             width: 50px;
             height: 50px;
             margin: 3px;
+            border-radius: 5px;
+            text-align: center;
         }
+        div.bloco1 {
+            background-color: #c6d8f0;
+            order: 0;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            flex: 0 1 auto;
+        }
+        div.bloco2 {
+            background-color: #d8bfd8;
+            order: 0;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            flex: 0 1 auto;
+        }
+        div.bloco3 {
+            background-color: #ff9999;
+            order: 0;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+            flex: 0 1 auto;
+        }    
     </style>
 </head>
 <body>
     <main class="conteiner">
+        <div class="bloco1">bloco 1</div>
+        <div class="bloco2">bloco 2</div>
+        <div class="bloco3">bloco 3</div>
+        <div class="bloco1">bloco 1</div>
+        <div class="bloco2">bloco 2</div>
+        <div class="bloco3">bloco 3</div>
+        <div class="bloco1">bloco 1</div>
+        <div class="bloco2">bloco 2</div>
+        <div class="bloco3">bloco 3</div>
         <div class="bloco1">bloco 1</div>
         <div class="bloco2">bloco 2</div>
         <div class="bloco3">bloco 3</div>
