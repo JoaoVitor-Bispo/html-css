@@ -4,9 +4,9 @@ div.conteiner {
     padding: 15px;
     display: grid;
     gap: 5px;
-    grid-template-areas: 'header header header'
-    'sidebar content content'
-    'footer footer footer';
+    grid-template-areas: 'header header header header'
+    'sidebar content content content'
+    'footer footer footer footer';
 }
 .conteiner div {
     background-color: white;
@@ -18,9 +18,11 @@ div.conteiner {
 }
 #sidebar {
     grid-area: sidebar;
+    height: 50vh
 }
 #content {
     grid-area: content;
+    height: 50vh
 }
 #footer {
     grid-area: footer;
