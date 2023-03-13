@@ -28,7 +28,7 @@
                 </div>
                 <div>
                     <p>Which option best describes your current role?</p>
-                    <select name="roles" id="dropdown">
+                    <select name="roles" id="dropdown" value="roles">
                         <option value="Describe Options">Select current role</option>
                         <option value="Study" name="student">Student</option>
                         <option value="Job" name="full-time-job">Full Time Job</option>
@@ -54,7 +54,7 @@
                 </div>
                 <div>
                     <p>What is your favorite feature of freeCodeCamp?</p>
-                    <select name="favorite_feature" id="favorite_feature">
+                    <select name="favorite_feature" id="favorite_feature" value="features">
                         <option value="Select">Select an option</option>
                         <option value="challenges">Challenges</option>
                         <option value="projects">Projects</option>
@@ -65,38 +65,36 @@
                 <div>
                     <p>What would you like to see improved? <small>(Check all that apply)</small></p>
                     <label>
-                        <input type="checkbox" name="frontend" id="check-frontend" >Front-end Projects
+                        <input type="checkbox" name="frontend" id="check-frontend" value="choices">Front-end Projects
                     </label>
                     <label>
-                        <input type="checkbox" name="backend" id="check-backend">Back-end Projects
+                        <input type="checkbox" name="backend" id="check-backend" value="choices">Back-end Projects
                     </label>
                     <label>
-                        <input type="checkbox" name="data" id="check-data">Data Visualization
+                        <input type="checkbox" name="data" id="check-data" value="choices">Data Visualization
                     </label>
                     <label>
-                        <input type="checkbox" name="challenges" id="check-challenges">Challenges
+                        <input type="checkbox" name="challenges" id="check-challenges" value="choices">Challenges
                     </label>
                     <label>
-                        <input type="checkbox" name="opensource" id="check-opensource">Open Source Community
+                        <input type="checkbox" name="opensource" id="check-opensource" value="choices">Open Source Community
                     </label>
                     <label>
-                        <input type="checkbox" name="help" id="check-help">Gitter help rooms
+                        <input type="checkbox" name="help" id="check-help" value="choices">Gitter help rooms
                     </label>
                     <label>
-                        <input type="checkbox" name="videos" id="check-videos">Videos
+                        <input type="checkbox" name="videos" id="check-videos" value="choices">Videos
                     </label>
                     <label>
-                        <input type="checkbox" name="meetups" id="check-meetups">City Meetups
+                        <input type="checkbox" name="meetups" id="check-meetups" value="choices">City Meetups
                     </label>
                     <label>
-                        <input type="checkbox" name="wiki" id="check-wiki">Wiki
+                        <input type="checkbox" name="wiki" id="check-wiki" value="choices">Wiki
                     </label>
                     <label>
-                        <input type="checkbox" name="forum" id="check-forum">Forum
+                        <input type="checkbox" name="forum" id="check-forum" value="choices">Forum
                     </label>
-                    <label>
-                        <input type="checkbox" name="courses" id="-check-courses">Additional Courses
-                    </label>
+                    <input type="checkbox" name="courses" id="-check-courses" value="choices">Additional Courses
                 </div>
                 <div>
                     <p>Any comments or suggestions?</p>
