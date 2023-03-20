@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+img {
+    height: 100px;
+    margin-top: 50px;
+    animation: arrowMove 0.8s alternate infinite;
+}
+@keyframes arrowMove {
+    from {
+        transform: translateX(20px);
+    }
+}

@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+#box {
+    outline: 2px solid red;
+}
+img {
+    height: 150px;
+    transform: translateX(70px) skew(20deg) rotate(.5turn) scaleX(1.5);
+}
