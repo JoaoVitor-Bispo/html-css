@@ -1,0 +1,17 @@
+@keyframes test {
+    from {
+        width: 150px;
+    }
+    to {
+        width: 1px;
+    }
+}
+div {
+    background-color: green;
+    height: 170px;
+    width: 150px;
+    margin: 50px auto;
+    animation: test 1s;
+    animation-timing-function: ease-in-out;
+    anima
+}

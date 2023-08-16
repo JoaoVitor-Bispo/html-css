@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: #ECF2F7;
+}
+.container {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 'div1 div1 div1 div2 div3'
+    'div4 div5 div5 div5 div5';
+    gap: 25px;
+}
+.boxes {
+    background-color: #733FC7;
+    font-family: 'Barlow semi condensed', sans-serif;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    line-height: 1.5em;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+}
+.boxes > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.head {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 20px;
+}
+h1 {
+    margin: 15px 0px;
+    font-size: 20px;
+}
+img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+}
+blockquote, small {
+    opacity: 70%;
+}
+.div1 {
+    grid-area: div1;
+    background-color: #733EC8;
+}
+.div2 {
+    grid-area: div2;
+    background-color: #49556C;
+}
+.div3, .div4 {
+    background-color: white;
+    color: black;
+}
+.div3 {
+    grid-area: div3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.div4 {
+    grid-area: div4;
+}
+.div5 {
+    grid-area: div5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: #19202E;
+}
