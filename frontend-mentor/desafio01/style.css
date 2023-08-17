@@ -13,8 +13,6 @@ body, html {
     padding: 20px;
     margin: auto;
     display: grid;
-    grid-template-areas: 'div1 div1 div1 div2 div3'
-    'div4 div5 div5 div5 div5';
     gap: 25px;
 }
 .boxes {
@@ -46,34 +44,46 @@ img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    border: 2px solid white;
 }
 blockquote, small {
     opacity: 70%;
 }
 .div1 {
-    grid-area: div1;
     background-color: #733EC8;
 }
 .div2 {
-    grid-area: div2;
     background-color: #49556C;
 }
 .div3, .div4 {
     background-color: white;
     color: black;
 }
-.div3 {
-    grid-area: div3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-.div4 {
-    grid-area: div4;
-}
 .div5 {
-    grid-area: div5;
-    grid-column-start: 2;
-    grid-column-end: 5;
     background-color: #19202E;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 2000px){
+        .container {
+        grid-template-areas: 'div1 div1 div1 div2 div3'
+        'div4 div5 div5 div5 div5';
+    }
+    .div1 {
+        grid-area: div1;
+    }
+    .div2 {
+        grid-area: div2;
+    }
+    .div3 {
+        grid-area: div3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .div4 {
+        grid-area: div4;
+    }
+    .div5 {
+        grid-area: div5;
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
 }
