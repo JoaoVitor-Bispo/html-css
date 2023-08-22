@@ -3,4 +3,4 @@
 
  Agora vou aprender a gerenciar repositórios.
 
-<a href="https://joaovitor-bispo.github.io/html-css/exercícios/Ex001/index.html">Executar o exercício 1</a>
+<a href="https://joaovitor-bispo.github.io/html-css/frontend-mentor/desafio01/index.html">Executar o exercício 1</a>
